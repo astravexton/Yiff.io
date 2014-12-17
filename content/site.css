@@ -1,0 +1,77 @@
+﻿html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111111;
+}
+
+#floater {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    transition: 0.5s;
+    opacity: 0.3;
+}
+
+    #floater:hover {
+        opacity: 1;
+    }
+
+    #floater > ul {
+        margin: 0;
+        padding: 0;
+        background-color: #383838;
+        border: 1px solid #BDBDBD;
+    }
+
+        #floater > ul > li {
+            list-style: none;
+            text-align: center;
+            padding: 5px 0;
+            color: #EBEBEB;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+
+            #floater > ul > li:hover {
+                background-color: #2800FF;
+            }
+
+            #floater > ul > li:nth-of-type(1) > a > img {
+                width: 36px;
+                border: 0;
+            }
+
+            #floater > ul > li:nth-of-type(1) {
+                padding: 0;
+                margin-bottom: 5px;
+            }
+
+                #floater > ul > li:nth-of-type(1):hover {
+                    background-color: initial;
+                }
+
+#gaffa {
+    width: 100%;
+    max-width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#viewerimage {
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-box-shadow: 0px 0px 45px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 45px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 45px 0px rgba(0,0,0,0.75);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0 auto;
+    display: block;
+    background-color: white;
+    cursor: pointer;
+}
