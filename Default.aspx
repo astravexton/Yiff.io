@@ -12,7 +12,7 @@
 			<div id="upload-panel">
 				<form runat="server" ID="formUpload">
 					<asp:FileUpload runat="server" ID="formUploadFile" />
-					<asp:Button runat="server" ID="formUploadButton" Text="Upload!" />
+					<asp:Button runat="server" ID="formUploadButton" Text="Upload!" OnClick="formUploadButton_Click" />
 					<button id="formUploadClose">&times;</button>
 				</form>
 			</div>
