@@ -30,6 +30,9 @@
                 <li id="action-edit" title="Edit image with Pixlr">
                     <i class="fa fa-edit"></i>
                 </li>
+				<li id="Li1" title="Upload an image">
+                    <i class="fa fa-upload"></i>
+                </li>
             </ul>
         </div>
         <div id="gaffa">
