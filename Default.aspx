@@ -8,6 +8,15 @@
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
     <body>
+		<div id="floatover">
+			<div id="upload-panel">
+				<form runat="server" ID="formUpload">
+					<asp:FileUpload runat="server" ID="formUploadFile" />
+					<asp:Button runat="server" ID="formUploadButton" Text="Upload!" />
+					<button id="formUploadClose">&times;</button>
+				</form>
+			</div>
+		</div>
         <div id="floater">
             <ul>
                 <li>
@@ -30,7 +39,7 @@
                 <li id="action-edit" title="Edit image with Pixlr">
                     <i class="fa fa-edit"></i>
                 </li>
-				<li id="Li1" title="Upload an image">
+				<li id="action-upload" title="Upload an image">
                     <i class="fa fa-upload"></i>
                 </li>
             </ul>

@@ -14,6 +14,7 @@ body {
     left: 10px;
     transition: 0.5s;
     opacity: 0.3;
+	z-index: 4000;
 }
 
     #floater:hover {
@@ -74,4 +75,28 @@ body {
     display: block;
     background-color: white;
     cursor: pointer;
+}
+
+#floatover {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	text-align: center;
+	z-index: 5000;
+	display: none;
+}
+
+#upload-panel {
+	position: relative;
+	background-color: white;
+	color: black;
+	padding: 20px;
+	display: inline-block;
+	margin: 60px auto 0 auto;
+}
+
+#formUpload {
+	margin: 0;
+	padding: 0;
 }

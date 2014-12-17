@@ -42,12 +42,24 @@
 	});
 	$("#action-upload").click(function ()
 	{
-		//
+		$("#floatover").fadeIn("slow", function ()
+		{
+			// Animation complete
+		});
 	});
 
 	$("#viewerimage").click(function ()
 	{
 		location.reload();
+	});
+
+	$("#formUploadClose").click(function ()
+	{
+		$("#floatover").fadeOut("slow", function ()
+		{
+			// Animation complete
+		});
+		return false;
 	});
 });
 
