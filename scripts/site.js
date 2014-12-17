@@ -50,7 +50,9 @@
 
 	$("#viewerimage").click(function ()
 	{
-		location.reload();
+		// so you can view previous image :3
+		var now = (new Date).getTime();
+		window.location.href = "/?"+now;
 	});
 
 	$("#formUploadClose").click(function ()
